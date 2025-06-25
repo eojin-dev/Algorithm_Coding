@@ -12,3 +12,10 @@ for i in range(len(s)):
 
 print(*alpha)
 #리스트를 공백으로 나눠 한 줄로 출력
+
+#s = input()
+#alpha = [chr(c) for c in range(ord('a'),ord('z')+1)]
+#result = [str(s.find(ch)) for ch in alpha]
+#.find(ch)는: 문자가 처음 등장하는 인덱스를 반환 / 없으면 -1을 반환
+
+#print(*result)
